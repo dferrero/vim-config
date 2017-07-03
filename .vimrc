@@ -55,4 +55,26 @@ colorscheme solarized
 set guifont=DejaVu\ Sans\ Mono\ 10
 set antialias
 
-autocmd vimenter * NERDTree
+# autocmd vimenter * NERDTree
+
+" Disabling the directional keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+" Remapping <Esc> key
+:imap jk <Esc>
+
+" -- Search
+set ignorecase 	" Ignore case when searching
+set smartcase 	" If there is an uppercase in your search term
+		" search case sensitive again
+set incsearch 	" Highlight search results when typing
+set hlsearch 	" Highlight search results
+
+let mapleader = ","
