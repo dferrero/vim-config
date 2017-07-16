@@ -32,7 +32,7 @@ set backspace=indent,eol,start
 
 " Hide buffer (file) instead of abandoning when switching
 " to another buffer
-set hiddent
+set hidden
 
 " -- Syntax
 " Enable syntax highlighting
@@ -44,7 +44,7 @@ filetype indent on
 
 " -- Theme
 " Use the dark version of Solarized. Values: 'dark', 'light'
-set background=light
+set background=dark
 colorscheme solarized
 
 " -- Mac settings
@@ -55,7 +55,7 @@ colorscheme solarized
 set guifont=DejaVu\ Sans\ Mono\ 10
 set antialias
 
-# autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " Disabling the directional keys
 map <up> <nop>
